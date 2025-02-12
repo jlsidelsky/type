@@ -164,6 +164,18 @@ const Specimen = (animateMode: number) => (
         scale={1 / 3}
       />
     ))}
+
+    <div style={{ gridColumn: "span 2", paddingLeft: "8px" }}>
+      <p style={{ textAlign: "left" }}>
+        Ornament is a modular and interactive typeface designed and developed
+        with React in TypeScript by Josh Sidelsky for Advanced Interaction
+        Design SP 2025.
+      </p>
+      <p style={{ textAlign: "left" }}>
+        Josh drew inspiration from Islamic geometric ornament and illuminated
+        capitals. The letterforms are based off transitional serif typography.
+      </p>
+    </div>
   </div>
 );
 
