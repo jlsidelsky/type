@@ -35,6 +35,7 @@ import Z from "./letters/Z";
 import Modes from "./Components/Modes";
 
 import V from "./letters/V";
+import CustomCursor from "./Components/Cursor";
 
 const word = [O, R, N, A, M, E, N, T];
 
@@ -56,6 +57,8 @@ function Home() {
         minHeight: "100vh",
       }}
     >
+      <CustomCursor />
+
       {/* Left Sidebar: Sticky Modes Menu */}
       <div
         style={{

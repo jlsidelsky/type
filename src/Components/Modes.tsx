@@ -14,6 +14,7 @@ const Modes = ({ animateMode, setAnimatedMode }: ModesFace) => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 50 50"
         onClick={() => setAnimatedMode(0)}
+        className={"hover-target"}
       >
         <path
           fill="none"
@@ -58,6 +59,7 @@ const Modes = ({ animateMode, setAnimatedMode }: ModesFace) => {
         viewBox="0 0 50 50"
         height={48}
         onClick={() => setAnimatedMode(1)}
+        className={"hover-target"}
       >
         <path
           fill="none"
@@ -91,6 +93,7 @@ const Modes = ({ animateMode, setAnimatedMode }: ModesFace) => {
         viewBox="0 0 50 50"
         height={48}
         onClick={() => setAnimatedMode(2)}
+        className={"hover-target"}
       >
         <g>
           <ellipse
@@ -132,6 +135,7 @@ const Modes = ({ animateMode, setAnimatedMode }: ModesFace) => {
         viewBox="0 0 50 50"
         height={48}
         onClick={() => setAnimatedMode(3)}
+        className={"hover-target"}
       >
         <defs></defs>
         <rect

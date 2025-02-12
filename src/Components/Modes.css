@@ -1,6 +1,6 @@
 .modes > svg {
   height: 48px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .modes > button {

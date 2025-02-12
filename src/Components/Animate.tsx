@@ -14,7 +14,7 @@ const Animate = ({ grid, animateMode, scale }: GridProps) => {
   const DIMS = [632, 572];
   return (
     <div
-      className={isHovering ? "border borderExpand" : "border"}
+      className={"hover-target"}
       style={{
         width: DIMS[0] * scale,
         height: DIMS[1] * scale,

@@ -41,7 +41,9 @@ const SegmentedControl: React.FC<SegmentedControlProps> = ({
       {segments.map((segment) => (
         <div
           key={segment.value}
-          className={`segment ${segment.value === selected ? "active" : ""}`}
+          className={`segment ${
+            segment.value === selected ? "active hover-target" : "hover-target"
+          }`}
           onClick={() => handleSegmentClick(segment.value)}
         >
           {segment.label}
