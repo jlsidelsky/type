@@ -4,8 +4,6 @@ import Star2 from "./Star2";
 import Hexagon from "./Hexagon";
 import { useState } from "react";
 
-const W = 21;
-
 interface GridProps {
   grid: number[][];
   animateMode: number;

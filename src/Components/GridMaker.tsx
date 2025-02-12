@@ -3,8 +3,6 @@ import Star1 from "./Star1";
 import Star2 from "./Star2";
 import Hexagon from "./Hexagon";
 
-const W = 21;
-
 interface GridMakerProps {
   grid: number[][];
   onCellClick: (row: number, col: number) => void;

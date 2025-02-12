@@ -3,8 +3,6 @@ import Star1 from "./Star1";
 import Star2 from "./Star2";
 import Hexagon from "./Hexagon";
 
-const W = 21;
-
 export interface GridProps {
   grid: number[][];
 }
@@ -43,17 +41,6 @@ const RowOne = (row: number[], index: number) => {
           <Hexagon key={`${index}_${index2}`} isFilled={val === 1} />
         )
       )}
-
-      {/* {row.map((val, index2) => {
-        index 2% 2 === 0 ? (
-          <Star1 key={index} isFilled />
-        ) : (
-          <Hexagon isFilled key={index} />
-        );
-      })} */}
-      {/* {Array.from({ length: num }, (_, index) =>
-        
-      )} */}
     </div>
   );
 };

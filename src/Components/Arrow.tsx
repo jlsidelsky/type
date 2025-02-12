@@ -1,5 +1,5 @@
 // import "react-native-svg";
-import React, { SVGProps } from "react";
+import React from "react";
 
 interface ArrowProps extends React.SVGProps<SVGSVGElement> {
   dir: number;
