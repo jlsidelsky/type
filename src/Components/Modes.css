@@ -1,0 +1,8 @@
+.modes > svg {
+  height: 48px;
+  cursor: pointer;
+}
+
+.modes > button {
+  background-color: transparent;
+}

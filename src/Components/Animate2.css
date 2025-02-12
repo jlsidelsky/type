@@ -1,0 +1,999 @@
+.starSpin {
+  z-index: 2;
+  will-change: transform;
+
+  animation: spin 0.75s ease-in-out 0.5s 1, spin 0.75s ease-in-out 2.75s 1,
+    spin 0.75s ease-in-out 5s 1, spin 0.75s ease-in-out 7.25s 1;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+/* .border {
+  padding: 14px 14px 14px 14px;
+}
+.borderExpand {
+  animation: expand0 0.75s ease-in-out 0.5s 1,
+    expand1 0.5s ease-out 1.25s forwards, contract1 0.5s ease-out 2.25s forwards,
+    expand2 0.75s ease-out 2.75s forwards, expand3 0.5s ease-out 3.5s forwards,
+    contract3 0.5s ease-out 4.5s forwards, expand4 0.5s ease-out 5.75s forwards,
+    contract4 0.5s ease-out 6.75s forwards;
+}
+@keyframes expand0 {
+  from {
+    padding: 14px 14px 14px 14px;
+  }
+  to {
+    padding: 14px 14px 18px 18px;
+  }
+}
+@keyframes expand1 {
+  from {
+    padding: 14px 14px 18px 18px;
+  }
+  to {
+    padding: 16px 16px 28px 28px;
+  }
+}
+@keyframes contract1 {
+  from {
+    padding: 16px 16px 28px 28px;
+  }
+  to {
+    padding: 14px 14px 18px 18px;
+  }
+}
+
+@keyframes expand3 {
+  from {
+    padding: 16px 14px 14px 16px;
+  }
+  to {
+    padding: 28px 16px 16px 28px;
+  }
+}
+@keyframes contract3 {
+  from {
+    padding: 28px 16px 16px 28px;
+  }
+  to {
+    padding: 14px 14px 14px 14px;
+  }
+}
+@keyframes expand4 {
+  from {
+    padding: 14px 14px 14px 14px;
+  }
+  to {
+    padding: 28px 28px 16px 16px;
+  }
+}
+@keyframes contract4 {
+  from {
+    padding: 28px 28px 16px 16px;
+  }
+  to {
+    padding: 14px 14px 14px 14px;
+  }
+} */
+
+.arrow1 {
+  will-change: transform;
+  transform-origin: -6px -6px;
+  animation: moveOut1 0.5s ease-out forwards,
+    spin1 0.75s ease-in-out 0.5s forwards,
+    moveBack1 0.5s ease-out 1.25s forwards,
+    moveOut1b 0.5s ease-out 2.25s forwards,
+    spin1b 0.75s ease-in-out 2.75s forwards,
+    moveBack1b 0.5s ease-out 3.5s forwards,
+    moveOut1c 0.5s ease-out 4.5s forwards, spin1c 0.75s ease-in-out 5s forwards,
+    moveBack1c 0.5s ease-out 5.75s forwards,
+    moveOut1d 0.5s ease-out 6.75s forwards,
+    spin1d 0.75s ease-in-out 7.25s forwards,
+    moveBack1d 0.5s ease-out 8s forwards;
+}
+
+@keyframes moveOut1 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-6px, -6px);
+  }
+}
+@keyframes spin1 {
+  from {
+    transform: translate(-6px, -6px) rotate(0deg);
+  }
+  to {
+    transform: translate(-6px, -6px) rotate(90deg);
+  }
+}
+@keyframes moveBack1 {
+  from {
+    transform: translate(-6px, -6px) rotate(90deg);
+  }
+  to {
+    transform: translate(-12px, 0px) rotate(90deg);
+  }
+}
+@keyframes moveOut1b {
+  from {
+    transform: translate(-12px, 0px) rotate(90deg);
+  }
+  to {
+    transform: translate(-6px, -6px) rotate(90deg);
+  }
+}
+@keyframes spin1b {
+  from {
+    transform: translate(-6px, -6px) rotate(90deg);
+  }
+  to {
+    transform: translate(-6px, -6px) rotate(180deg);
+  }
+}
+@keyframes moveBack1b {
+  from {
+    transform: translate(-6px, -6px) rotate(180deg);
+  }
+  to {
+    transform: translate(-12px, -12px) rotate(180deg);
+  }
+}
+
+@keyframes moveOut1c {
+  from {
+    transform: translate(-12px, -12px) rotate(180deg);
+  }
+  to {
+    transform: translate(-6px, -6px) rotate(180deg);
+  }
+}
+@keyframes spin1c {
+  from {
+    transform: translate(-6px, -6px) rotate(180deg);
+  }
+  to {
+    transform: translate(-6px, -6px) rotate(270deg);
+  }
+}
+@keyframes moveBack1c {
+  from {
+    transform: translate(-6px, -6px) rotate(270deg);
+  }
+  to {
+    transform: translate(0px, -12px) rotate(270deg);
+  }
+}
+@keyframes moveOut1d {
+  from {
+    transform: translate(0px, -12px) rotate(270deg);
+  }
+  to {
+    transform: translate(-6px, -6px) rotate(270deg);
+  }
+}
+@keyframes spin1d {
+  from {
+    transform: translate(-6px, -6px) rotate(270deg);
+  }
+  to {
+    transform: translate(-6px, -6px) rotate(360deg);
+  }
+}
+@keyframes moveBack1d {
+  from {
+    transform: translate(-6px, -6px) rotate(360deg);
+  }
+  to {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+}
+
+.arrow2 {
+  will-change: transform;
+
+  transform-origin: 22px -6px;
+
+  animation: moveOut2 0.5s ease-out forwards,
+    spin2 0.75s ease-in-out 0.5s forwards,
+    moveBack2 0.5s ease-out 1.25s forwards,
+    moveOut2b 0.5s ease-out 2.25s forwards,
+    spin2b 0.75s ease-in-out 2.75s forwards,
+    moveBack2b 0.5s ease-out 3.5s forwards,
+    moveOut2c 0.5s ease-out 4.5s forwards, spin2c 0.75s ease-in-out 5s forwards,
+    moveBack2c 0.5s ease-out 5.75s forwards,
+    moveOut2d 0.5s ease-out 6.75s forwards,
+    spin2d 0.75s ease-in-out 7.25s forwards,
+    moveBack2d 0.5s ease-out 8s forwards;
+}
+
+@keyframes moveOut2 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(6px, -6px);
+  }
+}
+@keyframes spin2 {
+  from {
+    transform: translate(6px, -6px) rotate(0deg);
+  }
+  to {
+    transform: translate(6px, -6px) rotate(90deg);
+  }
+}
+@keyframes moveBack2 {
+  from {
+    transform: translate(6px, -6px) rotate(90deg);
+  }
+  to {
+    transform: translate(0px, -12px) rotate(90deg);
+  }
+}
+@keyframes moveOut2b {
+  from {
+    transform: translate(0px, -12px) rotate(90deg);
+  }
+  to {
+    transform: translate(6px, -6px) rotate(90deg);
+  }
+}
+
+@keyframes spin2b {
+  from {
+    transform: translate(6px, -6px) rotate(90deg);
+  }
+  to {
+    transform: translate(6px, -6px) rotate(180deg);
+  }
+}
+
+@keyframes moveBack2b {
+  from {
+    transform: translate(6px, -6px) rotate(180deg);
+  }
+  to {
+    transform: translate(12px, -12px) rotate(180deg);
+  }
+}
+
+@keyframes moveOut2c {
+  from {
+    transform: translate(12px, -12px) rotate(180deg);
+  }
+  to {
+    transform: translate(6px, -6px) rotate(180deg);
+  }
+}
+@keyframes spin2c {
+  from {
+    transform: translate(6px, -6px) rotate(180deg);
+  }
+  to {
+    transform: translate(6px, -6px) rotate(270deg);
+  }
+}
+@keyframes moveBack2c {
+  from {
+    transform: translate(6px, -6px) rotate(270deg);
+  }
+  to {
+    transform: translate(12px, 0px) rotate(270deg);
+  }
+}
+@keyframes moveOut2d {
+  from {
+    transform: translate(12px, 0px) rotate(270deg);
+  }
+  to {
+    transform: translate(6px, -6px) rotate(270deg);
+  }
+}
+@keyframes spin2d {
+  from {
+    transform: translate(6px, -6px) rotate(270deg);
+  }
+  to {
+    transform: translate(6px, -6px) rotate(360deg);
+  }
+}
+@keyframes moveBack2d {
+  from {
+    transform: translate(6px, -6px) rotate(360deg);
+  }
+  to {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+}
+
+.arrow3 {
+  will-change: transform;
+
+  /* transform: translate(-6px, -6px); */
+  transform-origin: -6px 22px;
+  /* animation: moveOut3 0.75s ease-out forwards,
+    spin3 0.75s ease-in-out 0.75s forwards,
+    moveBack3 0.75s ease-out 2.25s forwards; */
+
+  animation: moveOut3 0.5s ease-out forwards,
+    spin3 0.75s ease-in-out 0.5s forwards,
+    moveBack3 0.5s ease-out 1.25s forwards,
+    moveOut3b 0.5s ease-out 2.25s forwards,
+    spin3b 0.75s ease-in-out 2.75s forwards,
+    moveBack3b 0.5s ease-out 3.5s forwards,
+    moveOut3c 0.5s ease-out 4.5s forwards, spin3c 0.75s ease-in-out 5s forwards,
+    moveBack3c 0.5s ease-out 5.75s forwards,
+    moveOut3d 0.5s ease-out 6.75s forwards,
+    spin3d 0.75s ease-in-out 7.25s forwards,
+    moveBack3d 0.5s ease-out 8s forwards;
+}
+
+@keyframes moveOut3 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-6px, 6px);
+  }
+}
+@keyframes spin3 {
+  from {
+    transform: translate(-6px, 6px) rotate(0deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(90deg);
+  }
+}
+@keyframes moveBack3 {
+  from {
+    transform: translate(-6px, 6px) rotate(90deg);
+  }
+  to {
+    transform: translate(0px, 12px) rotate(90deg);
+  }
+}
+@keyframes moveOut3b {
+  from {
+    transform: translate(0px, 12px) rotate(90deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(90deg);
+  }
+}
+
+@keyframes spin3b {
+  from {
+    transform: translate(-6px, 6px) rotate(90deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(180deg);
+  }
+}
+
+@keyframes moveBack3b {
+  from {
+    transform: translate(-6px, 6px) rotate(180deg);
+  }
+  to {
+    transform: translate(-12px, 12px) rotate(180deg);
+  }
+}
+
+@keyframes moveOut3c {
+  from {
+    transform: translate(-12px, 12px) rotate(180deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(180deg);
+  }
+}
+@keyframes spin3c {
+  from {
+    transform: translate(-6px, 6px) rotate(180deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(270deg);
+  }
+}
+@keyframes moveBack3c {
+  from {
+    transform: translate(-6px, 6px) rotate(270deg);
+  }
+  to {
+    transform: translate(-12px, 0px) rotate(270deg);
+  }
+}
+@keyframes moveOut3d {
+  from {
+    transform: translate(-12px, 0px) rotate(270deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(270deg);
+  }
+}
+@keyframes spin3d {
+  from {
+    transform: translate(-6px, 6px) rotate(270deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(360deg);
+  }
+}
+@keyframes moveBack3d {
+  from {
+    transform: translate(-6px, 6px) rotate(360deg);
+  }
+  to {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+}
+/* @keyframes moveOut3 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-6px, 6px);
+  }
+}
+@keyframes spin3 {
+  from {
+    transform: translate(-6px, 6px) rotate(0deg);
+  }
+  to {
+    transform: translate(-6px, 6px) rotate(90deg);
+  }
+}
+@keyframes moveBack3 {
+  from {
+    transform: translate(-6px, 6px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+} */
+
+.arrow4 {
+  will-change: transform;
+
+  /* transform: translate(-6px, -6px); */
+  transform-origin: 22px 22px;
+  animation: moveOut4 0.5s ease-out forwards,
+    spin4 0.75s ease-in-out 0.5s forwards,
+    moveBack4 0.5s ease-out 1.25s forwards,
+    moveOut4b 0.5s ease-out 2.25s forwards,
+    spin4b 0.75s ease-in-out 2.75s forwards,
+    moveBack4b 0.5s ease-out 3.5s forwards,
+    moveOut4c 0.5s ease-out 4.5s forwards, spin4c 0.75s ease-in-out 5s forwards,
+    moveBack4c 0.5s ease-out 5.75s forwards,
+    moveOut4d 0.5s ease-out 6.75s forwards,
+    spin4d 0.75s ease-in-out 7.25s forwards,
+    moveBack4d 0.5s ease-out 8s forwards;
+}
+
+@keyframes moveOut4 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(6px, 6px);
+  }
+}
+@keyframes spin4 {
+  from {
+    transform: translate(6px, 6px) rotate(0deg);
+  }
+  to {
+    transform: translate(6px, 6px) rotate(90deg);
+  }
+}
+@keyframes moveBack4 {
+  from {
+    transform: translate(6px, 6px) rotate(90deg);
+  }
+  to {
+    transform: translate(12px, 0px) rotate(90deg);
+  }
+}
+@keyframes moveOut4b {
+  from {
+    transform: translate(12px, 0px) rotate(90deg);
+  }
+  to {
+    transform: translate(6px, 6px) rotate(90deg);
+  }
+}
+@keyframes spin4b {
+  from {
+    transform: translate(6px, 6px) rotate(90deg);
+  }
+  to {
+    transform: translate(6px, 6px) rotate(180deg);
+  }
+}
+@keyframes moveBack4b {
+  from {
+    transform: translate(6px, 6px) rotate(180deg);
+  }
+  to {
+    transform: translate(12px, 12px) rotate(180deg);
+  }
+}
+
+@keyframes moveOut4c {
+  from {
+    transform: translate(12px, 12px) rotate(180deg);
+  }
+  to {
+    transform: translate(6px, 6px) rotate(180deg);
+  }
+}
+@keyframes spin4c {
+  from {
+    transform: translate(6px, 6px) rotate(180deg);
+  }
+  to {
+    transform: translate(6px, 6px) rotate(270deg);
+  }
+}
+@keyframes moveBack4c {
+  from {
+    transform: translate(6px, 6px) rotate(270deg);
+  }
+  to {
+    transform: translate(0px, 12px) rotate(270deg);
+  }
+}
+@keyframes moveOut4d {
+  from {
+    transform: translate(0px, 12px) rotate(270deg);
+  }
+  to {
+    transform: translate(6px, 6px) rotate(270deg);
+  }
+}
+@keyframes spin4d {
+  from {
+    transform: translate(6px, 6px) rotate(270deg);
+  }
+  to {
+    transform: translate(6px, 6px) rotate(360deg);
+  }
+}
+@keyframes moveBack4d {
+  from {
+    transform: translate(6px, 6px) rotate(360deg);
+  }
+  to {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+}
+
+.hexagon1 {
+  will-change: transform;
+  /* z-index: -1; */
+  animation: mov1a 0.5s ease-out forwards, mov1b 0.5s ease-out 1.25s forwards,
+    mov2a 0.5s ease-out 2.25s forwards, mov2b 0.5s ease-out 3.5s forwards,
+    mov1a 0.5s ease-out 4.5s forwards, mov1b 0.5s ease-out 5.75s forwards,
+    mov2a 0.5s ease-out 6.75s forwards, mov2b 0.5s ease-out 8s forwards;
+}
+@keyframes mov1a {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0px, -30px);
+  }
+}
+@keyframes mov1b {
+  from {
+    transform: translate(0px, -30px);
+  }
+  to {
+    transform: translate(0px, -60px);
+  }
+}
+@keyframes mov2a {
+  from {
+    transform: translate(0px, -60px);
+  }
+  to {
+    transform: translate(0px, -30px);
+  }
+}
+@keyframes mov2b {
+  from {
+    transform: translate(0px, -30px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+.hexagon2 {
+  will-change: transform;
+
+  animation: movy1a 0.5s ease-out forwards, movy1b 0.5s ease-out 1.25s forwards,
+    movy2a 0.5s ease-out 2.25s forwards, movy2b 0.5s ease-out 3.5s forwards,
+    movy1a 0.5s ease-out 4.5s forwards, movy1b 0.5s ease-out 5.75s forwards,
+    movy2a 0.5s ease-out 6.75s forwards, movy2b 0.5s ease-out 8s forwards;
+}
+@keyframes movy1a {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-30px, 0px);
+  }
+}
+@keyframes movy1b {
+  from {
+    transform: translate(-30px, 0px);
+  }
+  to {
+    transform: translate(-60px, 0px);
+  }
+}
+@keyframes movy2a {
+  from {
+    transform: translate(-60px, 0px);
+  }
+  to {
+    transform: translate(-30px, 0px);
+  }
+}
+@keyframes movy2b {
+  from {
+    transform: translate(-30px, 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+/* .hexagon1 {
+  will-change: transform;
+
+  transform-origin: 6px -10px;
+
+  animation: moveOutHex 0.5s ease-out forwards,
+    spinHex 0.75s ease-in-out 0.5s forwards,
+    moveBackHex 0.5s ease-out 1.25s forwards,
+    moveOutHexb 0.5s ease-out 2.25s forwards,
+    spinHexb 0.75s ease-in-out 2.75s forwards,
+    moveBackHexb 0.5s ease-out 3.5s forwards,
+    moveOutHexc 0.5s ease-out 4.5s forwards,
+    spinHexc 0.75s ease-in-out 5s forwards,
+    moveBackHexc 0.5s ease-out 5.75s forwards,
+    moveOutHexd 0.5s ease-out 6.75s forwards,
+    spinHexd 0.75s ease-in-out 7.25s forwards,
+    moveBackHexd 0.5s ease-out 8s forwards;
+}
+
+@keyframes moveOutHex {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0px, -8px);
+  }
+}
+@keyframes spinHex {
+  from {
+    transform: translate(0px, -8px) rotate(0deg);
+  }
+  to {
+    transform: translate(0px, -8px) rotate(90deg);
+  }
+}
+@keyframes moveBackHex {
+  from {
+    transform: translate(0px, -8px) rotate(90deg);
+  }
+  to {
+    transform: translate(-8px, -8px) rotate(90deg);
+  }
+}
+@keyframes moveOutHexb {
+  from {
+    transform: translate(-8px, -8px) rotate(90deg);
+  }
+  to {
+    transform: translate(0px, -8px) rotate(90deg);
+  }
+}
+@keyframes spinHexb {
+  from {
+    transform: translate(0px, -8px) rotate(90deg);
+  }
+  to {
+    transform: translate(0px, -8px) rotate(180deg);
+  }
+}
+@keyframes moveBackHexb {
+  from {
+    transform: translate(0px, -8px) rotate(180deg);
+  }
+  to {
+    transform: translate(0px, -16px) rotate(180deg);
+  }
+}
+
+@keyframes moveOutHexc {
+  from {
+    transform: translate(0px, -16px) rotate(180deg);
+  }
+  to {
+    transform: translate(0px, -8px) rotate(180deg);
+  }
+}
+@keyframes spinHexc {
+  from {
+    transform: translate(0px, -8px) rotate(180deg);
+  }
+  to {
+    transform: translate(0px, -8px) rotate(270deg);
+  }
+}
+@keyframes moveBackHexc {
+  from {
+    transform: translate(0px, -8px) rotate(270deg);
+  }
+  to {
+    transform: translate(8px, -8px) rotate(270deg);
+  }
+}
+@keyframes moveOutHexd {
+  from {
+    transform: translate(8px, -8px) rotate(270deg);
+  }
+  to {
+    transform: translate(0px, -8px) rotate(270deg);
+  }
+}
+@keyframes spinHexd {
+  from {
+    transform: translate(0px, -8px) rotate(270deg);
+  }
+  to {
+    transform: translate(0px, -8px) rotate(360deg);
+  }
+}
+@keyframes moveBackHexd {
+  from {
+    transform: translate(0px, -8px) rotate(360deg);
+  }
+  to {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+} */
+
+/* .hexagon2 {
+  will-change: transform;
+
+  transform-origin: -10px 12px;
+  animation: moveOuthex2 0.5s ease-out forwards,
+    spinhex2 0.75s ease-in-out 0.5s forwards,
+    moveBackhex2 0.5s ease-out 1.25s forwards,
+    moveOuthex2b 0.5s ease-out 2.25s forwards,
+    spinhex2b 0.75s ease-in-out 2.75s forwards,
+    moveBackhex2b 0.5s ease-out 3.5s forwards,
+    moveOuthex2c 0.5s ease-out 4.5s forwards,
+    spinhex2c 0.75s ease-in-out 5s forwards,
+    moveBackhex2c 0.5s ease-out 5.75s forwards,
+    moveOuthex2d 0.5s ease-out 6.75s forwards,
+    spinhex2d 0.75s ease-in-out 7.25s forwards,
+    moveBackhex2d 0.5s ease-out 8s forwards;
+}
+
+@keyframes moveOuthex2 {
+
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-8px, 0px);
+  }
+}
+@keyframes spinhex2 {
+  from {
+    transform: translate(-8px, 0px) rotate(0deg);
+  }
+  to {
+    transform: translate(-8px, 0px) rotate(90deg);
+  }
+}
+@keyframes moveBackhex2 {
+
+  from {
+    transform: translate(-8px, 0px) rotate(90deg);
+  }
+  to {
+    transform: translate(-8px, 8px) rotate(90deg);
+  }
+}
+@keyframes moveOuthex2b {
+
+  from {
+    transform: translate(-8px, 8px) rotate(90deg);
+  }
+  to {
+    transform: translate(-8px, 0px) rotate(90deg);
+  }
+}
+@keyframes spinhex2b {
+  from {
+    transform: translate(-8px, 0px) rotate(90deg);
+  }
+  to {
+    transform: translate(-8px, 0px) rotate(180deg);
+  }
+}
+@keyframes moveBackhex2b {
+
+  from {
+    transform: translate(-8px, 0px) rotate(180deg);
+  }
+  to {
+    transform: translate(-16px, 0px) rotate(180deg);
+  }
+}
+
+@keyframes moveOuthex2c {
+
+  from {
+    transform: translate(-16px, 0px) rotate(180deg);
+  }
+  to {
+    transform: translate(-8px, 0px) rotate(180deg);
+  }
+}
+@keyframes spinhex2c {
+  from {
+    transform: translate(-8px, 0px) rotate(180deg);
+  }
+  to {
+    transform: translate(-8px, 0px) rotate(270deg);
+  }
+}
+@keyframes moveBackhex2c {
+  from {
+    transform: translate(-8px, 0px) rotate(270deg);
+  }
+  to {
+    transform: translate(-8px, -8px) rotate(270deg);
+  }
+}
+@keyframes moveOuthex2d {
+  from {
+    transform: translate(-8px, -8px) rotate(270deg);
+  }
+  to {
+    transform: translate(-8px, 0px) rotate(270deg);
+  }
+}
+@keyframes spinhex2d {
+  from {
+    transform: translate(-8px, 0px) rotate(270deg);
+  }
+  to {
+    transform: translate(-8px, 0px) rotate(360deg);
+  }
+}
+@keyframes moveBackhex2d {
+  from {
+    transform: translate(-8px, 0px) rotate(360deg);
+  }
+  to {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+} */
+
+@keyframes slant {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(60px, 0px);
+  }
+  /* 50% {
+    transform: translate(0px, 0px);
+  } */
+  75% {
+    transform: translate(-60px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.flipS > path {
+  animation: flipSecondary 1s ease-in-out infinite alternate;
+}
+.flipS > rect {
+  animation: flipSecondary 1s ease-in-out infinite alternate;
+}
+
+@keyframes flipSecondary {
+  0% {
+    fill: var(--secondary);
+  }
+  100% {
+    fill: var(--primary);
+  }
+}
+.flipP > path {
+  animation: flipPrimary 1s ease-in-out infinite alternate;
+}
+.flipP > rect {
+  animation: flipPrimary 1s ease-in-out infinite alternate;
+}
+
+@keyframes flipPrimary {
+  0% {
+    fill: var(--primary);
+  }
+  100% {
+    fill: var(--secondary);
+  }
+}
+.grow1 {
+  visibility: hidden;
+  animation: grow1Anim 1.5s ease-in-out infinite;
+}
+
+.grow2 {
+  visibility: hidden;
+
+  animation: grow2Anim 1.5s ease-in-out infinite;
+}
+
+.grow3 {
+  visibility: hidden;
+
+  animation: grow3Anim 1.5s ease-in-out infinite;
+}
+
+@keyframes grow3Anim {
+  0%,
+  16.67% {
+    visibility: visible;
+  }
+  16.68%,
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes grow2Anim {
+  0%,
+  33.33% {
+    visibility: visible;
+  }
+  33.34%,
+  83.33% {
+    visibility: hidden;
+  }
+  83.34%,
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes grow1Anim {
+  0%,
+  50% {
+    visibility: visible;
+  }
+  50.01%,
+  66.66% {
+    visibility: hidden;
+  }
+  66.67%,
+  100% {
+    visibility: visible;
+  }
+}
