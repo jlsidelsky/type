@@ -18,6 +18,7 @@ const Animate = ({ grid, animateMode, scale }: GridProps) => {
       style={{
         width: DIMS[0] * scale,
         height: DIMS[1] * scale,
+        willChange: "transform",
         // overflow: "hidden",
       }}
     >

@@ -23,6 +23,9 @@ const Hexagon = ({
         xmlns: "http://www.w3.org/2000/svg",
       } as React.SVGProps<SVGSVGElement>)}
       xmlns="http://www.w3.org/2000/svg"
+      style={{
+        transform: "translateZ(0)",
+      }}
       {...props}
     >
       <path
@@ -44,6 +47,9 @@ const Hexagon = ({
         xmlns: "http://www.w3.org/2000/svg",
       } as React.SVGProps<SVGSVGElement>)}
       xmlns="http://www.w3.org/2000/svg"
+      style={{
+        transform: "translateZ(0)",
+      }}
       {...props}
     >
       <path

@@ -100,99 +100,99 @@
 
 @keyframes moveOut1 {
   from {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate(-6px, -6px);
+    transform: translate3d(-6px, -6px, 0);
   }
 }
 @keyframes spin1 {
   from {
-    transform: translate(-6px, -6px) rotate(0deg);
+    transform: translate3d(-6px, -6px, 0) rotate(0deg);
   }
   to {
-    transform: translate(-6px, -6px) rotate(90deg);
+    transform: translate3d(-6px, -6px, 0) rotate(90deg);
   }
 }
 @keyframes moveBack1 {
   from {
-    transform: translate(-6px, -6px) rotate(90deg);
+    transform: translate3d(-6px, -6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(-12px, 0px) rotate(90deg);
+    transform: translate3d(-12px, 0px, 0) rotate(90deg);
   }
 }
 @keyframes moveOut1b {
   from {
-    transform: translate(-12px, 0px) rotate(90deg);
+    transform: translate3d(-12px, 0px, 0) rotate(90deg);
   }
   to {
-    transform: translate(-6px, -6px) rotate(90deg);
+    transform: translate3d(-6px, -6px, 0) rotate(90deg);
   }
 }
 @keyframes spin1b {
   from {
-    transform: translate(-6px, -6px) rotate(90deg);
+    transform: translate3d(-6px, -6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(-6px, -6px) rotate(180deg);
+    transform: translate3d(-6px, -6px, 0) rotate(180deg);
   }
 }
 @keyframes moveBack1b {
   from {
-    transform: translate(-6px, -6px) rotate(180deg);
+    transform: translate3d(-6px, -6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(-12px, -12px) rotate(180deg);
+    transform: translate3d(-12px, -12px, 0) rotate(180deg);
   }
 }
 
 @keyframes moveOut1c {
   from {
-    transform: translate(-12px, -12px) rotate(180deg);
+    transform: translate3d(-12px, -12px, 0) rotate(180deg);
   }
   to {
-    transform: translate(-6px, -6px) rotate(180deg);
+    transform: translate3d(-6px, -6px, 0) rotate(180deg);
   }
 }
 @keyframes spin1c {
   from {
-    transform: translate(-6px, -6px) rotate(180deg);
+    transform: translate3d(-6px, -6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(-6px, -6px) rotate(270deg);
+    transform: translate3d(-6px, -6px, 0) rotate(270deg);
   }
 }
 @keyframes moveBack1c {
   from {
-    transform: translate(-6px, -6px) rotate(270deg);
+    transform: translate3d(-6px, -6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(0px, -12px) rotate(270deg);
+    transform: translate3d(0px, -12px, 0) rotate(270deg);
   }
 }
 @keyframes moveOut1d {
   from {
-    transform: translate(0px, -12px) rotate(270deg);
+    transform: translate3d(0px, -12px, 0) rotate(270deg);
   }
   to {
-    transform: translate(-6px, -6px) rotate(270deg);
+    transform: translate3d(-6px, -6px, 0) rotate(270deg);
   }
 }
 @keyframes spin1d {
   from {
-    transform: translate(-6px, -6px) rotate(270deg);
+    transform: translate3d(-6px, -6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(-6px, -6px) rotate(360deg);
+    transform: translate3d(-6px, -6px, 0) rotate(360deg);
   }
 }
 @keyframes moveBack1d {
   from {
-    transform: translate(-6px, -6px) rotate(360deg);
+    transform: translate3d(-6px, -6px, 0) rotate(360deg);
   }
   to {
-    transform: translate(0px, 0px) rotate(360deg);
+    transform: translate3d(0px, 0px, 0) rotate(360deg);
   }
 }
 
@@ -216,101 +216,101 @@
 
 @keyframes moveOut2 {
   from {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate(6px, -6px);
+    transform: translate3d(6px, -6px, 0);
   }
 }
 @keyframes spin2 {
   from {
-    transform: translate(6px, -6px) rotate(0deg);
+    transform: translate3d(6px, -6px, 0) rotate(0deg);
   }
   to {
-    transform: translate(6px, -6px) rotate(90deg);
+    transform: translate3d(6px, -6px, 0) rotate(90deg);
   }
 }
 @keyframes moveBack2 {
   from {
-    transform: translate(6px, -6px) rotate(90deg);
+    transform: translate3d(6px, -6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(0px, -12px) rotate(90deg);
+    transform: translate3d(0px, -12px, 0) rotate(90deg);
   }
 }
 @keyframes moveOut2b {
   from {
-    transform: translate(0px, -12px) rotate(90deg);
+    transform: translate3d(0px, -12px, 0) rotate(90deg);
   }
   to {
-    transform: translate(6px, -6px) rotate(90deg);
+    transform: translate3d(6px, -6px, 0) rotate(90deg);
   }
 }
 
 @keyframes spin2b {
   from {
-    transform: translate(6px, -6px) rotate(90deg);
+    transform: translate3d(6px, -6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(6px, -6px) rotate(180deg);
+    transform: translate3d(6px, -6px, 0) rotate(180deg);
   }
 }
 
 @keyframes moveBack2b {
   from {
-    transform: translate(6px, -6px) rotate(180deg);
+    transform: translate3d(6px, -6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(12px, -12px) rotate(180deg);
+    transform: translate3d(12px, -12px, 0) rotate(180deg);
   }
 }
 
 @keyframes moveOut2c {
   from {
-    transform: translate(12px, -12px) rotate(180deg);
+    transform: translate3d(12px, -12px, 0) rotate(180deg);
   }
   to {
-    transform: translate(6px, -6px) rotate(180deg);
+    transform: translate3d(6px, -6px, 0) rotate(180deg);
   }
 }
 @keyframes spin2c {
   from {
-    transform: translate(6px, -6px) rotate(180deg);
+    transform: translate3d(6px, -6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(6px, -6px) rotate(270deg);
+    transform: translate3d(6px, -6px, 0) rotate(270deg);
   }
 }
 @keyframes moveBack2c {
   from {
-    transform: translate(6px, -6px) rotate(270deg);
+    transform: translate3d(6px, -6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(12px, 0px) rotate(270deg);
+    transform: translate3d(12px, 0px, 0) rotate(270deg);
   }
 }
 @keyframes moveOut2d {
   from {
-    transform: translate(12px, 0px) rotate(270deg);
+    transform: translate3d(12px, 0px, 0) rotate(270deg);
   }
   to {
-    transform: translate(6px, -6px) rotate(270deg);
+    transform: translate3d(6px, -6px, 0) rotate(270deg);
   }
 }
 @keyframes spin2d {
   from {
-    transform: translate(6px, -6px) rotate(270deg);
+    transform: translate3d(6px, -6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(6px, -6px) rotate(360deg);
+    transform: translate3d(6px, -6px, 0) rotate(360deg);
   }
 }
 @keyframes moveBack2d {
   from {
-    transform: translate(6px, -6px) rotate(360deg);
+    transform: translate3d(6px, -6px, 0) rotate(360deg);
   }
   to {
-    transform: translate(0px, 0px) rotate(360deg);
+    transform: translate3d(0px, 0px, 0) rotate(360deg);
   }
 }
 
@@ -338,101 +338,101 @@
 
 @keyframes moveOut3 {
   from {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate(-6px, 6px);
+    transform: translate3d(-6px, 6px, 0);
   }
 }
 @keyframes spin3 {
   from {
-    transform: translate(-6px, 6px) rotate(0deg);
+    transform: translate3d(-6px, 6px, 0) rotate(0deg);
   }
   to {
-    transform: translate(-6px, 6px) rotate(90deg);
+    transform: translate3d(-6px, 6px, 0) rotate(90deg);
   }
 }
 @keyframes moveBack3 {
   from {
-    transform: translate(-6px, 6px) rotate(90deg);
+    transform: translate3d(-6px, 6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(0px, 12px) rotate(90deg);
+    transform: translate3d(0px, 12px, 0) rotate(90deg);
   }
 }
 @keyframes moveOut3b {
   from {
-    transform: translate(0px, 12px) rotate(90deg);
+    transform: translate3d(0px, 12px, 0) rotate(90deg);
   }
   to {
-    transform: translate(-6px, 6px) rotate(90deg);
+    transform: translate3d(-6px, 6px, 0) rotate(90deg);
   }
 }
 
 @keyframes spin3b {
   from {
-    transform: translate(-6px, 6px) rotate(90deg);
+    transform: translate3d(-6px, 6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(-6px, 6px) rotate(180deg);
+    transform: translate3d(-6px, 6px, 0) rotate(180deg);
   }
 }
 
 @keyframes moveBack3b {
   from {
-    transform: translate(-6px, 6px) rotate(180deg);
+    transform: translate3d(-6px, 6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(-12px, 12px) rotate(180deg);
+    transform: translate3d(-12px, 12px, 0) rotate(180deg);
   }
 }
 
 @keyframes moveOut3c {
   from {
-    transform: translate(-12px, 12px) rotate(180deg);
+    transform: translate3d(-12px, 12px, 0) rotate(180deg);
   }
   to {
-    transform: translate(-6px, 6px) rotate(180deg);
+    transform: translate3d(-6px, 6px, 0) rotate(180deg);
   }
 }
 @keyframes spin3c {
   from {
-    transform: translate(-6px, 6px) rotate(180deg);
+    transform: translate3d(-6px, 6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(-6px, 6px) rotate(270deg);
+    transform: translate3d(-6px, 6px, 0) rotate(270deg);
   }
 }
 @keyframes moveBack3c {
   from {
-    transform: translate(-6px, 6px) rotate(270deg);
+    transform: translate3d(-6px, 6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(-12px, 0px) rotate(270deg);
+    transform: translate3d(-12px, 0px, 0) rotate(270deg);
   }
 }
 @keyframes moveOut3d {
   from {
-    transform: translate(-12px, 0px) rotate(270deg);
+    transform: translate3d(-12px, 0px, 0) rotate(270deg);
   }
   to {
-    transform: translate(-6px, 6px) rotate(270deg);
+    transform: translate3d(-6px, 6px, 0) rotate(270deg);
   }
 }
 @keyframes spin3d {
   from {
-    transform: translate(-6px, 6px) rotate(270deg);
+    transform: translate3d(-6px, 6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(-6px, 6px) rotate(360deg);
+    transform: translate3d(-6px, 6px, 0) rotate(360deg);
   }
 }
 @keyframes moveBack3d {
   from {
-    transform: translate(-6px, 6px) rotate(360deg);
+    transform: translate3d(-6px, 6px, 0) rotate(360deg);
   }
   to {
-    transform: translate(0px, 0px) rotate(360deg);
+    transform: translate3d(0px, 0px, 0) rotate(360deg);
   }
 }
 /* @keyframes moveOut3 {
@@ -480,99 +480,99 @@
 
 @keyframes moveOut4 {
   from {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate(6px, 6px);
+    transform: translate3d(6px, 6px, 0);
   }
 }
 @keyframes spin4 {
   from {
-    transform: translate(6px, 6px) rotate(0deg);
+    transform: translate3d(6px, 6px, 0) rotate(0deg);
   }
   to {
-    transform: translate(6px, 6px) rotate(90deg);
+    transform: translate3d(6px, 6px, 0) rotate(90deg);
   }
 }
 @keyframes moveBack4 {
   from {
-    transform: translate(6px, 6px) rotate(90deg);
+    transform: translate3d(6px, 6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(12px, 0px) rotate(90deg);
+    transform: translate3d(12px, 0px, 0) rotate(90deg);
   }
 }
 @keyframes moveOut4b {
   from {
-    transform: translate(12px, 0px) rotate(90deg);
+    transform: translate3d(12px, 0px, 0) rotate(90deg);
   }
   to {
-    transform: translate(6px, 6px) rotate(90deg);
+    transform: translate3d(6px, 6px, 0) rotate(90deg);
   }
 }
 @keyframes spin4b {
   from {
-    transform: translate(6px, 6px) rotate(90deg);
+    transform: translate3d(6px, 6px, 0) rotate(90deg);
   }
   to {
-    transform: translate(6px, 6px) rotate(180deg);
+    transform: translate3d(6px, 6px, 0) rotate(180deg);
   }
 }
 @keyframes moveBack4b {
   from {
-    transform: translate(6px, 6px) rotate(180deg);
+    transform: translate3d(6px, 6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(12px, 12px) rotate(180deg);
+    transform: translate3d(12px, 12px, 0) rotate(180deg);
   }
 }
 
 @keyframes moveOut4c {
   from {
-    transform: translate(12px, 12px) rotate(180deg);
+    transform: translate3d(12px, 12px, 0) rotate(180deg);
   }
   to {
-    transform: translate(6px, 6px) rotate(180deg);
+    transform: translate3d(6px, 6px, 0) rotate(180deg);
   }
 }
 @keyframes spin4c {
   from {
-    transform: translate(6px, 6px) rotate(180deg);
+    transform: translate3d(6px, 6px, 0) rotate(180deg);
   }
   to {
-    transform: translate(6px, 6px) rotate(270deg);
+    transform: translate3d(6px, 6px, 0) rotate(270deg);
   }
 }
 @keyframes moveBack4c {
   from {
-    transform: translate(6px, 6px) rotate(270deg);
+    transform: translate3d(6px, 6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(0px, 12px) rotate(270deg);
+    transform: translate3d(0px, 12px, 0) rotate(270deg);
   }
 }
 @keyframes moveOut4d {
   from {
-    transform: translate(0px, 12px) rotate(270deg);
+    transform: translate3d(0px, 12px, 0) rotate(270deg);
   }
   to {
-    transform: translate(6px, 6px) rotate(270deg);
+    transform: translate3d(6px, 6px, 0) rotate(270deg);
   }
 }
 @keyframes spin4d {
   from {
-    transform: translate(6px, 6px) rotate(270deg);
+    transform: translate3d(6px, 6px, 0) rotate(270deg);
   }
   to {
-    transform: translate(6px, 6px) rotate(360deg);
+    transform: translate3d(6px, 6px, 0) rotate(360deg);
   }
 }
 @keyframes moveBack4d {
   from {
-    transform: translate(6px, 6px) rotate(360deg);
+    transform: translate3d(6px, 6px, 0) rotate(360deg);
   }
   to {
-    transform: translate(0px, 0px) rotate(360deg);
+    transform: translate3d(0px, 0px, 0) rotate(360deg);
   }
 }
 
@@ -586,34 +586,34 @@
 }
 @keyframes mov1a {
   from {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate(0px, -30px);
+    transform: translate3d(0px, -30px, 0);
   }
 }
 @keyframes mov1b {
   from {
-    transform: translate(0px, -30px);
+    transform: translate3d(0px, -30px, 0);
   }
   to {
-    transform: translate(0px, -60px);
+    transform: translate3d(0px, -60px, 0);
   }
 }
 @keyframes mov2a {
   from {
-    transform: translate(0px, -60px);
+    transform: translate3d(0px, -60px, 0);
   }
   to {
-    transform: translate(0px, -30px);
+    transform: translate3d(0px, -30px, 0);
   }
 }
 @keyframes mov2b {
   from {
-    transform: translate(0px, -30px);
+    transform: translate3d(0px, -30px, 0);
   }
   to {
-    transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0);
   }
 }
 .hexagon2 {
@@ -626,34 +626,34 @@
 }
 @keyframes movy1a {
   from {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate(-30px, 0px);
+    transform: translate3d(-30px, 0px, 0);
   }
 }
 @keyframes movy1b {
   from {
-    transform: translate(-30px, 0px);
+    transform: translate3d(-30px, 0px, 0);
   }
   to {
-    transform: translate(-60px, 0px);
+    transform: translate3d(-60px, 0px, 0);
   }
 }
 @keyframes movy2a {
   from {
-    transform: translate(-60px, 0px);
+    transform: translate3d(-60px, 0px, 0);
   }
   to {
-    transform: translate(-30px, 0px);
+    transform: translate3d(-30px, 0px, 0);
   }
 }
 @keyframes movy2b {
   from {
-    transform: translate(-30px, 0px);
+    transform: translate3d(-30px, 0px, 0);
   }
   to {
-    transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0);
   }
 }
 /* .hexagon1 {
@@ -896,19 +896,19 @@
 
 @keyframes slant {
   0% {
-    transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0);
   }
   25% {
-    transform: translate(60px, 0px);
+    transform: translate3d(60px, 0px, 0);
   }
   /* 50% {
-    transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0);
   } */
   75% {
-    transform: translate(-60px, 0px);
+    transform: translate3d(-60px, 0px, 0);
   }
   100% {
-    transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0);
   }
 }
 

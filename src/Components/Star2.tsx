@@ -11,6 +11,9 @@ const Star2 = ({ isFilled = false, scale = 1, ...props }: Star2Props) => {
       viewBox="0 0 19 19"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      style={{
+        transform: "translateZ(0)",
+      }}
       {...props}
     >
       {/* Axis-aligned square */}

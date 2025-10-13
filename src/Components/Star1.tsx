@@ -16,6 +16,9 @@ const Star1: React.FC<Star1Props> = ({
       viewBox="0 0 32 32"
       // c="none"
       xmlns="http://www.w3.org/2000/svg"
+      style={{
+        transform: "translateZ(0)",
+      }}
       {...props}
     >
       <path

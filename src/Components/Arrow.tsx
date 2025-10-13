@@ -16,6 +16,9 @@ const Arrow = ({ dir, isFilled = false, scale = 1, ...props }: ArrowProps) => {
         fill: "none",
         xmlns: "http://www.w3.org/2000/svg",
       } as React.SVGProps<SVGSVGElement>)}
+      style={{
+        transform: "translateZ(0)",
+      }}
       {...props}
     >
       <path

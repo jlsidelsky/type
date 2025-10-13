@@ -14,7 +14,7 @@ const CustomCursor: React.FC = () => {
     const handleMouseEnter = () => setCursorHover(true);
     const handleMouseLeave = () => setCursorHover(false);
 
-    // Function to add event listeners to hover elements
+    // Function to add event listeners to hover elements 
     const updateHoverTargets = () => {
       const hoverElements = document.querySelectorAll(".hover-target");
       hoverElements.forEach((el) => {

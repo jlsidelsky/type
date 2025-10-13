@@ -3,4 +3,6 @@
   --primary: #000000;
   --background: #f1e8d8;
   color: var(--primary);
+  -c: rgb(165, 42, 42)
+  
 }
